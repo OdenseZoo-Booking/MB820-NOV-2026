@@ -1,0 +1,40 @@
+{
+  "id": "5c5990b8-a5ed-421d-b6b9-7d729cd6946e",
+  "name": "Cronus Fragt",
+  "publisher": "Cronus",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "29.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "18.0",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ],
+  "internalsVisibleTo": [
+    {
+      "id": "8f5e92d3-ebcc-452e-9a34-cc1f3760f0f0",
+      "name": "test",
+      "publisher": "Sebastian, MB820"
+    }
+  ]
+}

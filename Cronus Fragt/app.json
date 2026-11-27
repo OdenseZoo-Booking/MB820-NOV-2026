@@ -1,7 +1,7 @@
 {
-  "id": "3fe683c0-bdca-4b79-b84f-a0f7b7daa7f4",
+  "id": "5c5990b8-a5ed-421d-b6b9-7d729cd6946e",
   "name": "Cronus Fragt",
-  "publisher": "Sebastian, MB820",
+  "publisher": "Cronus",
   "version": "1.0.0.0",
   "brief": "",
   "description": "",
@@ -13,19 +13,28 @@
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "22.0.0.0",
+  "application": "29.0.0.0",
   "idRanges": [
     {
       "from": 50100,
       "to": 50149
     }
   ],
-  "features": [
-    "NoImplicitWith"
-  ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
-  }
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "18.0",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ],
+  "internalsVisibleTo": [
+    {
+      "id": "8f5e92d3-ebcc-452e-9a34-cc1f3760f0f0",
+      "name": "test",
+      "publisher": "Sebastian, MB820"
+    }
+  ]
 }

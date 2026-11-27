@@ -1,5 +1,20 @@
 {
     "version": "0.2.0",
     "configurations": [
+        {
+            "name": "Microsoft cloud sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "CRONUS-DEV",
+            "tenant": "ad598285-7ae5-4486-96bf-bd8c48053a2d",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "Synchronize"
+        }
     ]
 }
